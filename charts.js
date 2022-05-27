@@ -98,6 +98,8 @@ function init() {
           tickvals: [0,1,2,3,4,5,6,7,8,9],
           ticktext: yticks
         },
+        paper_bgcolor: 'rgba(0,0,0,0)',
+        plot_bgcolor: 'rgba(0,0,0,0)',
         annotations: [{
           xref: 'paper',
           yref: 'paper',
@@ -151,6 +153,8 @@ function init() {
     // 2. Create the layout for the bubble chart.
     var bubbleLayout = {
       title: 'Cuisine by score for selected Zip code',
+      plot_bgcolor: 'rgba(0,0,0,0)',
+      paper_bgcolor: 'rgba(0,0,0,0)',
       showlegend: false,
       xaxis: {title: "Cuisine", automargin: true},
       yaxis: {title: "Score",automargin: true},
@@ -212,6 +216,8 @@ function init() {
     // 5. Create the layout for the gauge chart.
     var gaugeLayout = { 
       autosize: true,
+      paper_bgcolor: 'rgba(0,0,0,0)',
+      plot_bgcolor: 'rgba(0,0,0,0)',
       annotations: [{
         xref: 'paper',
         yref: 'paper',
