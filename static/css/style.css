@@ -1,6 +1,5 @@
 body {
-  background-color: #e4d8b4!important;
-  /* color: rgb(234, 233, 233); */
+  background-color: #f7f0f4!important;
   display: inline-block;
 }
 
@@ -28,16 +27,16 @@ tr td:last-child {
 }
 
 th {
-  background: rgb(222, 160, 47);
+  background: #d9edf7;
   position: sticky;
   top: 0;
 }
+
 
 h4 {
   margin: auto;  
   padding: 10px;
   text-align: center;
-  /* color:tomato; */
 }
 
 .topnav {
